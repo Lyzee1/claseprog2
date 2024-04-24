@@ -4,32 +4,48 @@
     <meta charset="UTF-8"> <!-- para caracteres latinos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header> 
-        Hola!  <!-- logo, menu de navegacion, titulo, es el encabezado.-->
-     </header>
-    <h1> MiniBio </h1> <!--para hacer textos, si es h2 va a ser mas chico que h1-->
- <h2> Mi nombre </h2>
- <p> Me llamo Ramiro y vivo en Quilmes :D </p>
- <img src="./imagenes/messi.jpg" alt="Messi campeon" width="300"> 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/zmUHnANsWfQ?si=0D1W11_PQ4BCPpF1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- <h4>Listas</h4>
- <h5>Listas Numeradas / Pasos para hacer mate </h5>
- <ol>
- <li>Tener yerba y agua caliente</li>
- <li>Poner la yerba en el mate</li>
- <li>Agitar</li>
- <li>Hacer un hueco y agregar agua caliente</li>
- <li>Poner la bombilla y tomar</li>
- </ol>
- <h5>Listas con vinietas / Lista de nombres</h5>
- <ul>
-    <li>Luca</li>
-    <li>Sebastian</li>
-    <li>Ramiro</li> 
-<li>Thiago</li>
-<li>Alejo</li>
+    <header id="arriba">  <!-- logo, menu de navegacion, titulo, es el encabezado.-->
+        <nav>
+ <ul> 
+<h1 class="titulo">Header</h1>
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="./pages/personajes">Personajes</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Nosotros</a></li>    
  </ul>
+ <div><a href="#pie">Ir abajo</a></div>
+        </nav> 
+     </header>
+    <h1 class="titulo"> MiniBio </h1> <!--para hacer textos, si es h2 va a ser mas chico que h1-->
+ <h2 class="titulo2"> Mi nombre </h2>
+ <section>
+ <p> Me llamo Ramiro y vivo en Quilmes :D </p>
+</section>
+ <img src="./imagenes/messi.jpg" alt="Messi campeon" width="300"> 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/BRGBYU7iW1g?si=P1BmJKS9t4yJUyzR&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <h4 class="titulo">Listas</h4>
+ <h5 class="titulo2">Listas Numeradas / Pasos para hacer mate </h5>
+ <ol>
+ <li class="negro">Tener yerba y agua caliente</li>
+ <li class="negro">Poner la yerba en el mate</li>
+ <li class="negro">Agitar</li>
+ <li class="negro">Hacer un hueco y agregar agua caliente</li>
+ <li class="negro">Poner la bombilla y tomar</li>
+ </ol>
+ <h5 class="titulo2">Listas con vinietas / Lista de nombres</h5>
+ <ul>
+    <li class="negro">Luca</li>
+    <li class="negro">Sebastian</li>
+    <li class="negro">Ramiro</li> 
+<li class="negro">Thiago</li>
+<li class="negro">Alejo</li>
+ </ul>
+ <footer id="#pie">
+    <div class="titulo"> Pie de pagina </div>
+    <div><a href="#arriba">Ir arriba</a></div>
+ </footer>
 </body>
 </html>
