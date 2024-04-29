@@ -1,17 +1,95 @@
 body{
-    color: darkmagenta;
+    color: goldenrod;
+    background-color: black;;
 }
 .titulo {
-    color: crimson;
+    color: goldenrod;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
 }
 
 .titulo2 {
-    color: brown;
+    color: gold;
+    
 }
 
 .negro {
     color: black;
 }
-section {
-    color: blueviolet;
+    *{
+        margin: 100;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .slider{
+      width: 1400px;
+      height: 800px;
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto;  /* para alinear una imagen al centro */
+      
+
+    }
+    .slider ul{
+        display: flex;
+        animation: cambio 20s infinite alternate linear;
+        width: 400%;
+    }
+    .slider li{
+        width: 100%;
+        list-style: none;
+    }
+    .slider img{
+        width: 1400px;
+        height: 800px;
+    }
+    @keyframes cambio{
+        0%{margin-left: 0;}
+        20%{margin-left: 0;}
+        
+        25%{margin-left: -100%;}
+        45%{margin-left: -100%;}
+        
+        50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+        
+        75%{margin-left: -300%;}
+        100%{margin-left: -300%;}
+    }
+
+.MenuSuperior {
+    list-style: none;
+    text-align: center;
 }
+
+.MenuSuperior li {
+    display: inline;
+}
+
+.MenuSuperior a{
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+
+section {
+    text-align: center;
+    font-size: x-large;
+    color: aliceblue;
+    
+}
+
+.footer li{
+    text-align: center;
+    display: inline;
+}
+
+.footer a{
+    text-decoration: none;
+    color: gold;
+    font-weight: 700;
+    padding: 2rem;
+}
+

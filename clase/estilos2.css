@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ ul{
+    list-style-type: square;
+ }
+
+ .boxmodel {
+    background-color: blueviolet;
+    border-style: solid;
+    width: 120px;
+    height: 100px;
+    margin: auto;
+    
+
+ }
