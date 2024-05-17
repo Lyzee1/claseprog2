@@ -1,6 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     color: goldenrod;
     background-color: black;;
+
+.logo{
+ width: 150px;
+transition: height 2s, width 1s;
+    }
+    .logo:hover{
+        width: 200px;
+    }
 }
 .titulo {
     color: goldenrod;
@@ -16,11 +29,7 @@ body{
 .negro {
     color: black;
 }
-    *{
-        margin: 100;
-        padding: 0;
-        box-sizing: border-box;
-    }
+
     .slider{
       width: 1400px;
       height: 800px;
@@ -64,15 +73,26 @@ body{
 
 .MenuSuperior li {
     display: inline;
+    
 }
 
 .MenuSuperior a{
     text-decoration: none;
     color: goldenrod;
     font-weight: 700;
+    font-family: "Freeman", sans-serif;
     padding: 2rem;
     font-size: 1.4rem;
+    font-size: 25px;
+    transition: height 2s, width 1s;
 }
+
+.MenuSuperior a:hover{
+    font-size: 35px;
+
+}
+
+
 
 section {
     text-align: center;
@@ -91,5 +111,62 @@ section {
     color: gold;
     font-weight: 700;
     padding: 2rem;
+}
+
+@media(min-width:480px) and (max-width:768px){
+.slider{
+  width: 600px;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;  /* para alinear una imagen al centro */
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 600px;
+    height: 450px;
+}
+section{
+    font-size: 20px;
+}
+}
+
+@media(max-width:480px){
+.MenuSuperior a{
+        text-decoration: none;
+        color: goldenrod;
+        font-weight: 700;
+        font-family: "Freeman", sans-serif;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+    }
+.slider{
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;  /* para alinear una imagen al centro */
+  }
+  .slider ul{
+      display: flex;
+      animation: cambio 20s infinite alternate linear;
+      width: 400%;
+  }
+  .slider li{
+      width: 100%;
+      list-style: none;
+  }
+  .slider img{
+      width: 450px;
+      height: 350px;
+  }
 }
 

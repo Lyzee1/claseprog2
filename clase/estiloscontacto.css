@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: WHITE
+}
+
+.logo{
+    width: 150px;
+   transition: height 2s, width 1s;
+       }
+       .logo:hover{
+           width: 200px;
+       }
+
+li {
+    display: inline-block;
+    height: 100px;
+}
+ .MenuSuperior {
+    list-style: none;
+    text-align: center;
+}
+
+.MenuSuperior li {
+    display: inline;
+}
+
+.MenuSuperior a{
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 700;
+    font-family: "Freeman", sans-serif;
+    padding: 2rem;
+    font-size: 25px;
+    transition: height 2s, width 1s;
+}
+
+.MenuSuperior a:hover{
+    font-size: 35px;
+
+}
+
+.fieldset{
+    border: 9px solid black;
+    border-radius: 10px;
+    height: 150px;
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+}
+.nombre{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+
+}
+.apellido{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+}
+
+
+.form{
+    color: black;
+    margin: 0 auto;
+    width: 30%
+
+}
+
+
+.label{
+    display: block;
+    border: black;
+}
+
+.enviar input{
+    color: black;
+   
+    padding: 1rem;
+    width: 150px;
+    position: relative;
+    left: 210px;
+    top: 40px;
+    cursor: cell;
+}
+
