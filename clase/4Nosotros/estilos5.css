@@ -78,7 +78,7 @@ li {
     }
 
     .galeria {
-        width: calc(100% - 20px); /* Una columna */
+        width: calc(100% - 20px); 
     }
 }
 
@@ -96,6 +96,6 @@ li {
 
     
     .galeria {
-        width: calc(100% - 20px); /* Una columna */
+        width: calc(100% - 20px);
     }
 }

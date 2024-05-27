@@ -99,11 +99,12 @@
     font-family: "Jersey 15", sans-serif;
     font-weight: 700;
     text-align: center;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     animation: bounce; 
     animation-duration: 2s; 
     margin: 0 auto;
-        
+    font-size: 4vw; 
 }
 
 .uno{
@@ -205,7 +206,7 @@
     width: 450px;
 }
 
-@media(min-width:480px) and (max-width:768px){
+@media(min-width:576px) and (max-width:768px){
       .integrantespadreuno{
         display: flex;
         flex-direction: column;
@@ -220,6 +221,10 @@
         margin: 19px;
         font-size: 25px;
     }
+    .titulo {
+        font-size: 5vw; 
+        width: 90%; 
+    }
 }
 
 @media(max-width:576px){
@@ -231,10 +236,10 @@
     .integrantes{
         width: 80%;
     }
-    .titulo{
-        text-align: none;
-        width: none;
-
+    .titulo {
+        font-size: 6vw;
+        width: 100%; 
+        text-align: center;
     }
     .MenuSuperior a{
             text-decoration: none;
@@ -244,7 +249,10 @@
             padding: 0.3rem;
             margin: 19px;
             font-size: 25px;
+
         }
+        
+
 
       }
 

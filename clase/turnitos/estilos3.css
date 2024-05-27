@@ -42,7 +42,7 @@ li {
 .boxpadre {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Asegura que las cajas se ajusten en pantallas más pequeñas */
+    flex-wrap: wrap; 
 }
 
 .box {
@@ -50,11 +50,11 @@ li {
     color: aliceblue;
     background-color: goldenrod;
     width: 27%;
-    height: auto; /* Ajuste automático de altura */
-    margin-bottom: 2rem; /* Espacio entre cajas en pantallas pequeñas */
+    height: auto; 
+    margin-bottom: 2rem; 
     display: flex;
-    flex-direction: column; /* Asegura que el contenido sea vertical */
-    align-items: center; /* Centra el contenido horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .box img {
@@ -64,17 +64,17 @@ li {
 
 .btn {
     color: black;
-    width: 80%; /* Ajuste responsivo del ancho */
-    max-width: 280px; /* Ancho máximo para evitar que sea demasiado grande */
+    width: 80%; 
+    max-width: 280px; 
     font-family: "Freeman", sans-serif;
-    font-size: 2rem; /* Ajuste del tamaño de fuente */
+    font-size: 2rem; 
     border-radius: 5%;
     background-color: inherit;
     cursor: pointer;
     padding: 1rem; 
     display: block;
-    text-align: center; /* Centra el texto */
-    margin-top: 1rem; /* Espacio entre la imagen y el botón */
+    text-align: center; 
+    margin-top: 1rem; 
     text-decoration: none;
 }
 
